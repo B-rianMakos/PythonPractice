@@ -1,0 +1,302 @@
+Python 3.8.5 (tags/v3.8.5:580fbb0, Jul 20 2020, 15:43:08) [MSC v.1926 32 bit (Intel)] on win32
+Type "help", "copyright", "credits" or "license()" for more information.
+>>> 
+=================== RESTART: C:/Users/User/WORKSPACE/brian.py ==================
+>>> #Testing elementary_school_quiz
+>>> elementary_school_quiz(0,2)
+question 1 :
+ What is 8 - 4? 48
+That is not correct.
+question 2 :
+ What is 2 - 7? 48
+That is not correct.
+You answered 0/2 answers correctly!
+I think you might need a little more practise! Feel free to try again. Bye.
+>>> elementary_school_quiz(1,1)
+question 1 :
+What is 7^8? 874
+That is not correct
+You answered 0/1 answers correctly!
+I think you might need a little more practise! Feel free to try again. Bye
+>>> elementary_school_quiz(1,1)
+question 1 :
+What is 7^7? 0934
+That is not correct
+You answered 0/1 answers correctly!
+I think you might need a little more practise! Feel free to try again. Bye
+>>> elementary_school_quiz(1,2)
+question 1 :
+What is 6^2? 36
+You are correct.
+question 2 :
+What is 8^4? 763
+That is not correct
+You answered 1/2 answers correctly!
+Good job, but I know you can do better! Feel free to try again.
+>>> 
+>>> #Testing high_school_quiz
+>>> high_school_quiz(1,3,1)
+The quadratic equation 1*x^2 + 3*x + 1 
+has the following real roots : -0.3819660112501051 
+ and -2.618033988749895
+>>> high_school_quiz(3,2,15)
+The quadratic equation 3*x^2 + 2*x + 15 
+has the following complexe roots :  -0.3333333333333333+i*2.2110831935702664 and  -0.3333333333333333-i*2.2110831935702664
+>>> high_school_quiz(3,2,-15)
+The quadratic equation 3*x^2 + 2*x + -15 
+has the following real roots : 1.9274433277084226 
+ and -2.5941099943750894
+>>> high_school_quiz(1,2,1)
+The quadratic equation 1*x^2 + 2*x + 1 
+only has one real root : -1.0
+>>> high_school_quiz(0,2,4)
+the linear function : 2*x + 4
+has the following root/solution x=-2.0
+>>> high_school_quiz(0,0,0)
+The quadratic equation 0*x^2 + 0*x + 0 
+is satisfied by all number for x
+>>>  high_school_quiz(0,0,10)
+ 
+SyntaxError: unexpected indent
+>>> high_school_quiz(0,0,10)
+The quadratic equation 0*x^2 + 0*x + 10 
+ The equation is satisfied for no number for x
+>>> 
+>>> #Testing the entire thing
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?Yes
+*************************************************
+*                                               *
+*              Substraction Quiz                *
+*                                               *
+*************************************************
+How many questions would you like to do?1
+Below are your 1 question : 
+question 1 :
+ What is 1 - 1? 0
+You are correct.
+You answered 1/1 answers correctly!
+Good job, You will probably get an A tommorow! Goodbye.
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?Yes
+*************************************************
+*                                               *
+*              Substraction Quiz                *
+*                                               *
+*************************************************
+How many questions would you like to do?2
+Below are your 2 question : 
+question 1 :
+ What is 9 - 8? 1
+You are correct.
+question 2 :
+ What is 7 - 0? 7
+You are correct.
+You answered 2/2 answers correctly!
+Good job, You will probably get an A tommorow! Goodbye.
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?Yes
+*************************************************
+*                                               *
+*              Substraction Quiz                *
+*                                               *
+*************************************************
+How many questions would you like to do?1
+Below are your 1 question : 
+question 1 :
+ What is 1 - 4? 8347563874
+That is not correct.
+You answered 0/1 answers correctly!
+I think you might need a little more practise! Feel free to try again. Bye.
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?Yes
+*************************************************
+*                                               *
+*              Substraction Quiz                *
+*                                               *
+*************************************************
+How many questions would you like to do?2
+Below are your 2 question : 
+question 1 :
+ What is 3 - 2? 1
+You are correct.
+question 2 :
+ What is 1 - 0? 0
+That is not correct.
+You answered 1/2 answers correctly!
+Good job, but I know you can do better! Feel free to try again.
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?No
+Brian would you like to practise doing exponenent? Yes or No?Yes
+*************************************************
+*                                               *
+*              Exponential Quiz                 *
+*                                               *
+*************************************************
+How many questions would you like?1
+Below are your 1 question : 
+question 1 :
+What is 6^8? 1679616
+You are correct.
+You answered 1/1 answers correctly!
+Good job, You will probably get an A tommorow! Goodbye
+>>> 
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?No
+Brian would you like to practise doing exponenent? Yes or No?Yes
+*************************************************
+*                                               *
+*              Exponential Quiz                 *
+*                                               *
+*************************************************
+How many questions would you like?2
+Below are your 2 question : 
+question 1 :
+What is 2^2? 4
+You are correct.
+question 2 :
+What is 3^6? 2342647389
+That is not correct
+You answered 1/2 answers correctly!
+Good job, but I know you can do better! Feel free to try again.
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?No
+Brian would you like to practise doing exponenent? Yes or No?Yes
+*************************************************
+*                                               *
+*              Exponential Quiz                 *
+*                                               *
+*************************************************
+How many questions would you like?1
+Below are your 1 question : 
+question 1 :
+What is 3^6? 347568734685
+That is not correct
+You answered 0/1 answers correctly!
+I think you might need a little more practise! Feel free to try again. Bye
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 1
+Brian would you like to practice substractions? Yes or No?NO
+Brian would you like to practise doing exponenent? Yes or No?NO
+No options were chosen. type 'test()' to try again. Goodbye Brian!
+>>> test()
+**************************************
+*                                    *
+*   Welcome to my math help tool!    *
+*                                    *
+**************************************
+ 
+What is your name? Brian
+Hello Brian! Please enter : 1 if you are in elementary school 2 if you are in highschool 3 if none of these apply to you. 2
+*************************************************
+*                                               *
+*           Quadratic equation solver           *
+*                                               *
+*************************************************
+Brian would you like to solve a quadratic equation? Yes or No?Yes
+Please input the value of a1
+Please input the value of b2
+Please input the value of c3
+The quadratic equation 1.0*x^2 + 2.0*x + 3.0 
+has the following complexe roots :  -1.0+i*1.4142135623730951 and  -1.0-i*1.4142135623730951
+
+Would you like to solve another quadratic equation? Yes or no? Yes
+Please input the value of a-1
+Please input the value of b10
+Please input the value of c36
+The quadratic equation -1.0*x^2 + 10.0*x + 36.0 
+has the following real roots : -2.810249675906654 
+ and 12.810249675906654
+
+Would you like to solve another quadratic equation? Yes or no? Yes
+Please input the value of a0
+Please input the value of b2.5
+Please input the value of c3.246
+the linear function : 2.5*x + 3.246
+has the following root/solution x=-1.2984
+
+Would you like to solve another quadratic equation? Yes or no? Yes
+Please input the value of a0
+Please input the value of b0
+Please input the value of c2.5
+The quadratic equation 0.0*x^2 + 0.0*x + 2.5 
+ The equation is satisfied for no number for x
+
+Would you like to solve another quadratic equation? Yes or no? Yes
+Please input the value of a0
+Please input the value of b0
+Please input the value of c0
+The quadratic equation 0.0*x^2 + 0.0*x + 0.0 
+is satisfied by all number for x
+
+Would you like to solve another quadratic equation? Yes or no? No
+Thank you for using our math program Brian. Feel free to use it again.
+>>> 
